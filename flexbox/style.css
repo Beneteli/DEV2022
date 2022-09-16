@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: yellow;
+    height: 80vh;
+
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-start; /*EIXO PRINCIPAL*/
+    gap: 30px;
+    align-items: flex-start; /*EIXO TRANSVERSAL*/
+    align-content: flex-start;
+    flex-wrap: wrap;
+    height: 50vh;
+    align-items: center;
+    align-content: flex-start;
+    
+}
+.item {
+    background: tomato;
+    flex-grow: 1; /*distribui o tamanho dos elementos no eixo principal*/
+
+}
+
+.item:nth-child(1) {
+    
+    order: 3;
+}
+
+.item:nth-child(2) {
+    
+    order: 2;
+}
+
+.item:nth-child(3) {
+    
+    order: 1;
+}

@@ -1,0 +1,12 @@
+/*FLOAT => desvincula o conteúdo da DIV PAI, fazendo-o flutuar
+  (útil para deslocar elementos para os lados)
+  OBS: ao estabelecer um OVERFLOW:AUTO na DIV PAI, ela engloba o conteúdo flutuante em desconfigura-lo*/
+
+  .container{
+    border: 1px solid black;
+    /* overflow: auto; */
+}
+
+.container img{
+    float: left; /*conteúdo à esquerda*/
+}

@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+
+/* ------------------------------- TRABALHANDO NA DIV PAI --------------------------------------*/
+.flexPai{
+    background: blue;
+    height: 600px;
+/* DISPLAY: FLEX (primeiro passo para funcionamento das demais propriedades)*/
+    display: flex;
+
+
+
+
+ /* flex-direction: column (coluna);
+                    row (linha);
+                    colunm-reverse (inverte os itens da coluna)
+                    row-reverse (inverte a linha)
+    flex-wrap: nowrap (padrão/ conteúdo vaza a div e cria barra de rolagem);
+               wrap (flexibiliza a div de acordo com o conteúdo e quebra a linha);
+    flex-flow: row wrap (junta as duas propriedades numa única sentença);                          
+ */ 
+    flex-flow: row wrap;
+
+
+
+
+
+ /*  justify-content: flex-start (padrão/ conteúdo alinhado à esqueda);
+                     flex-end (conteúdo alinhado à direita);
+                     center (conteúdo centralizado);
+                     space-between (espaçamento horizontal uniforme entre os conteúdos);
+                     space-around (espaçamento uniforme envolta dos conteúdos (igual a uma margem));
+ */    
+    justify-content: center;
+
+
+
+
+ /* align-items: stretch (padrão/ estica a DIV verticalmente para o tamanho total da div pai);
+                 start (alinha o conteúdo ao topo da DIV pai);
+                 end (alinha o conteúdo no fundo da DIV pai);
+                 center (centraliza o conteúdo na DIV pai);  
+                 OBS: aligin-items trabalha a nível de item individual; 
+ */
+    align-items: center;
+
+
+
+
+ /* align-content: flex-start (alinha todo o conteúdo no inicio transversal da DIV pai);
+                   flex-end (alinha todo o conteúdo no fundo transversal da DIV pai);
+                   center (centraliza todo o conteúdo no eixo transversal quando houver quebra de linha);
+                   OBS: flex-content trabalha a nível de conteúdo completo;  
+ */ 
+    align-content: center
+
+}
+
+ /* ------------------------------- TRABALHANDO NA DIV FILHO --------------------------------------*/
+ 
+ .flexPai div{
+    background: white;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+/*  flex-grow: (tamanho horizontal do conteúdo)*/
+    flex-grow:1;
+
+}
+

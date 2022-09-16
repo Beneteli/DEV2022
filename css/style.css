@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Square+Peg&display=swap');
+/*BORDER*/
+h1{
+    border: 5px solid red; /*Sólida*/ 
+            /*dotted (pontinhos)*/
+            /*dashed (tracinhos)*/
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+h2{
+    /*bordas direcionadas*/
+    border-left: 5px solid green;
+    border-right: 5px solid rgb(17, 0, 255);
+    border-top: 5px solid rgb(150, 0, 0);
+    border-bottom: 5px solid rgb(255, 157, 0);
+    border-radius: 10px; /*Arredondar bordas*/
+}
+
+/*-------------------FONT*----------------*/
+p{
+    /*google fonts*/
+    font-family: 'Square Peg', cursive;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold; /*grossura da fonte*/
+
+}
+
+/* ------------------------------------- POSITION ----------------------------------*/
+.container{
+    display: inline-block;
+    background: blue;
+    width: 100%;
+    height:400px;
+}
+.div1{
+    position: relative;
+    left: 60px;
+    width: 30%;
+    height: 100px;
+    background: yellow;
+    display: inline-block;
+    z-index: 1;
+}
+.div2{
+    position: relative;
+    width: 30%;
+    height: 100px;
+    background: white;
+    display: inline-block;
+    z-index: 2;
+}
+
+.div3{
+    width: 30%;
+    height: 100px;
+    background: red;
+    display: inline-block;
+}
+
+.whats{
+    position: fixed;
+    background: green;
+    color: wheat;
+    width: 80px;
+    height: 80px;
+    top: 10px;
+    left: 10px;
+    z-index: 3;
+
+}
+

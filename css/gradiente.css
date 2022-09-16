@@ -1,0 +1,19 @@
+.gradiente{
+    width: 100%;
+    height: 300px;
+    background-image: radial-gradient(blue 0%, red 90%);
+}
+/* -----------------TEXT SHADOW / BOX SHADOW ---------------- */
+/*text shadow: horizontal vertical blur(desfoque cor) */   
+h1{
+    text-shadow: 3px 3px 5px blue ;
+}
+
+.branco{
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+/*MULTIPLAS SOMBRAS: usa-se a "," e acescenta outra sombra*/
+.multipla{
+    text-shadow: 0 0 3px red, 2px 2px 4px greenyellow ;
+}

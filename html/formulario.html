@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+</head>
+<!--
+    CSS INLINE - Direto na linha do código
+    CSS INCORPORADO - No Head da página
+    CSS EXTERNO - Em um arquivo à parte
+
+    PRIORIDADE = INLINE > INCORPORADO > EXTERNO
+ -->
+<body>
+    
+    <form action="">
+        <h2>Formulário</h2>
+
+        <!-- TEXTO-->
+        <label for="name">Nome</label>
+        <input type="text" id="name" placeholder="Digite seu nome" >
+        <br><br>
+
+        <label for="lastname">Sobrenome</label>
+        <input type="text" id="lastname" placeholder="Digite seu sobrenome">
+        <br><br>
+
+        <label for="nascimento">Nascimento</label>
+        <input type="date" id="nascimento" placeholder="Data de nascimento">
+        <br><br>
+
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" id="senha">
+        <hr>
+
+        <!-- RADIO-->
+        <h3>Selecione seu sexo</h3>
+
+        <label for="masc">Masculino</label>
+        <input id="masc" type="radio" name="sexo" value="masculino">
+        <br><br>
+        <label for="fem">Feminino</label>
+        <input id="fem" type="radio" name="sexo" id="fem">
+        <br><br>
+        <hr>
+        
+        <!-- CHECKBOX-->
+        <h3>Selecione os temas pretendidos</h3>
+        
+        <input type="checkbox" name="html" id="html">
+        <label for="html">HTML</label>
+        <br>
+        
+        <input type="checkbox" name="css" id="css">
+        <label for="css">CSS</label>
+        <br>
+
+        <input type="checkbox" name="js" id="js">
+        <label for="js">JavaScript</label>
+        <br><br>
+        <hr>
+
+        <!--TEXTAREA-->
+        <textarea name="texto" id="areatexto" cols="30" rows="10" placeholder="Digite sua Mensagem"></textarea>
+
+        <!--COMBOBOX-->
+        <h3>Selecione o município</h3>
+        <select name="municipio" id="municipio">
+            <option value="sp">São Paulo</option>
+            <option value="os">Osasco</option>
+            <option value="sjrp">São José do Rio Preto</option>
+            <option value="sjc">São José dos Campos</option>
+        </select>
+        
+
+
+    </form>    
+    
+    
+</body>
+</html>

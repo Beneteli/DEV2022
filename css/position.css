@@ -1,0 +1,25 @@
+.container{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    box-sizing: border-box;
+}
+
+
+.container p{
+
+    display: inline-block;
+    position: relative;
+    font-size: 30px;
+    font-weight: bolder;
+    left: 60px;
+    bottom: 0px;
+    
+}
+
+.container img{
+    width: 400px;
+    display: inline-block;
+    opacity: 0.5;
+    
+}
